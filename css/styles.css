@@ -11,7 +11,7 @@
 .header-title {
   font-weight: 700;
   font-size: 3rem;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   display: inline;
   padding-left: 1%;
 }
@@ -66,6 +66,7 @@ footer {
   padding: 2% 0;
   background-color: antiquewhite;
   margin-bottom: 0;
+  letter-spacing: 3px;
 }
 
 form {
@@ -116,13 +117,26 @@ form {
 }
 .card {
   background-color: #ceedc7;
-  margin: 0 auto;
+  margin: 0 1%;
   display: inline-block;
 }
 
-.card-header {
-  font-size: 2rem;
+.header-incomes {
   color: #3e7c17;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.header-expenses {
+  color: #dc3535;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.header-balance {
+  color: #3c79f5;
+  font-size: 2rem;
+  letter-spacing: 3px;
 }
 
 .card-title {
@@ -131,4 +145,10 @@ form {
 
 .card-text {
   text-align: left;
+}
+
+.dropdown {
+  text-align: right;
+  padding: 1% 1% 0;
+  background-color: antiquewhite;
 }
