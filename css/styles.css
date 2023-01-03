@@ -34,7 +34,7 @@
 }
 
 .home-page-wall {
-  background-image: url("home-img.jpg");
+  background-image: url("../img/home-img.jpg");
   text-align: center;
   padding: 10% 0%;
 }

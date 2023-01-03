@@ -46,69 +46,72 @@
     />
 
     <!-- datapicker -->
-    <link href="datapicker/css/bootstrap-datepicker.css" rel="stylesheet" />
-    <script src="datapicker/js/bootstrap-datepicker.min.js"></script>
-    <script src="datapicker/js/bootstrap-datepicker.pl.min.js"></script>
+    <link href="css/bootstrap-datepicker.css" rel="stylesheet" />
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/bootstrap-datepicker.pl.min.js"></script>
   </head>
 
   <body>
-    <div id="title">
-      <img class="header-budget-img" src="img/budget.png" alt="budget-img" />
-      <h1 class="header-title">Zaplanuj swój budżet i zacznij oszczędzać!</h1>
-    </div>
-
-    <nav id="navigation-bar" class="navbar navbar-expand-lg navbar-light">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html"
-              ><i class="nav-icon fa-solid fa-house-chimney"></i>Strona
-              główna</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="nav-icon fa-solid fa-sack-dollar"></i>Dodaj przychód</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="add-expense.html"
-              ><i class="nav-icon fa-solid fa-cash-register"></i>Dodaj
-              wydatek</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="show-balance.html"
-              ><i class="nav-icon fa-solid fa-scale-unbalanced"></i>Przeglądaj
-              bilans</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="nav-icon fa-solid fa-screwdriver-wrench"></i
-              >Ustawienia</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="nav-icon fa-solid fa-arrow-up-right-from-square"></i
-              >Wyloguj się</a
-            >
-          </li>
-        </ul>
+    <header>
+      <div id="title">
+        <img class="header-budget-img" src="img/budget.png" alt="budget-img" />
+        <h1 class="header-title">Zaplanuj swój budżet i zacznij oszczędzać!</h1>
       </div>
-    </nav>
+
+      <nav id="navigation-bar" class="navbar navbar-expand-lg navbar-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html"
+                ><i class="nav-icon fa-solid fa-house-chimney"></i>Strona
+                główna</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="nav-icon fa-solid fa-sack-dollar"></i>Dodaj
+                przychód</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="add-expense.html"
+                ><i class="nav-icon fa-solid fa-cash-register"></i>Dodaj
+                wydatek</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="show-balance.html"
+                ><i class="nav-icon fa-solid fa-scale-unbalanced"></i>Przeglądaj
+                bilans</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="nav-icon fa-solid fa-screwdriver-wrench"></i
+                >Ustawienia</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="nav-icon fa-solid fa-arrow-up-right-from-square"></i
+                >Wyloguj się</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!-- expenses section  -->
     <h2 class="header-section">Wprowadź dane nowego wydatku:</h2>
