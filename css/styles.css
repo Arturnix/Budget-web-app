@@ -2,7 +2,7 @@
 
 @media (min-width: 768px) {
   .login-page-form {
-    height: 100vh !important;
+    min-height: 100vh !important;
     background-image: url(../img/home-img.jpg);
   }
 }
