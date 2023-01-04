@@ -1,3 +1,30 @@
+/* register-login */
+
+@media (min-width: 768px) {
+  .login-page-form {
+    height: 100vh !important;
+    background-image: url(../img/home-img.jpg);
+  }
+}
+@media (min-width: 769px) {
+  .login-page-custom {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+#title-login-page {
+  font-family: Montserrat;
+  color: rgb(247, 196, 42);
+  text-align: center;
+  padding: 1% 0;
+  font-size: 2rem;
+}
+
+.login-page-form form {
+  background-color: #ceedc7;
+}
+
 /* home-page */
 
 #title {
